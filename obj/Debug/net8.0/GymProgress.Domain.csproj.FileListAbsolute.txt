@@ -20,3 +20,4 @@ C:\repos\GymProgress\src\GymProgress.Domain\obj\Debug\net8.0\refint\GymProgress.
 C:\repos\GymProgress\src\GymProgress.Domain\obj\Debug\net8.0\GymProgress.Domain.pdb
 C:\repos\GymProgress\src\GymProgress.Domain\bin\Debug\net8.0\GymProgress.Domain.deps.json
 C:\repos\GymProgress\src\GymProgress.Domain\obj\Debug\net8.0\ref\GymProgress.Domain.dll
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Debug\net8.0\GymProgress.Domain.sourcelink.json

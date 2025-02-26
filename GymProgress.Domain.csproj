@@ -9,6 +9,7 @@
 	  <PackageId>GymProgress.Domain</PackageId>
 	  <Authors>Rsda</Authors>
 	  <Description>Domain for GymProgress</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
 	  <RepositoryUrl>https://github.com/Rsda23/GymProgress.Domain</RepositoryUrl>
 	  <RepositoryType>git</RepositoryType>
   </PropertyGroup>

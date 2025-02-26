@@ -1,0 +1,12 @@
+C:\repos\GymProgress\src\GymProgress.Domain\bin\Release\net8.0\GymProgress.Domain.deps.json
+C:\repos\GymProgress\src\GymProgress.Domain\bin\Release\net8.0\GymProgress.Domain.dll
+C:\repos\GymProgress\src\GymProgress.Domain\bin\Release\net8.0\GymProgress.Domain.pdb
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Release\net8.0\GymProgress.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Release\net8.0\GymProgress.Domain.AssemblyInfoInputs.cache
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Release\net8.0\GymProgress.Domain.AssemblyInfo.cs
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Release\net8.0\GymProgress.Domain.csproj.CoreCompileInputs.cache
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Release\net8.0\GymProgress.Domain.sourcelink.json
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Release\net8.0\GymProgress.Domain.dll
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Release\net8.0\refint\GymProgress.Domain.dll
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Release\net8.0\GymProgress.Domain.pdb
+C:\repos\GymProgress\src\GymProgress.Domain\obj\Release\net8.0\ref\GymProgress.Domain.dll

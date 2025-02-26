@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>GymProgress.Domain</id>
+    <version>1.0.0</version>
+    <authors>Rsda</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Domain for GymProgress</description>
+    <repository type="git" url="https://github.com/Rsda23/GymProgress.Domain" commit="f94c63bac7b7d00faf4c746a585681bc2c021e0b" />
+    <dependencies>
+      <group targetFramework="net8.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\repos\GymProgress\src\GymProgress.Domain\bin\Release\net8.0\GymProgress.Domain.dll" target="lib\net8.0\GymProgress.Domain.dll" />
+  </files>
+</package>
