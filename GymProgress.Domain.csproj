@@ -4,14 +4,14 @@
     <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-
-	  <Version>1.0.1</Version>
-	  <PackageId>GymProgress.Domain</PackageId>
-	  <Authors>Rsda</Authors>
-	  <Description>Domain for GymProgress</Description>
-	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <RepositoryUrl>https://github.com/Rsda23/GymProgress.Domain</RepositoryUrl>
-	  <RepositoryType>git</RepositoryType>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Version>1.0.2</Version>
+	<PackageId>GymProgress.Domain</PackageId>
+	<Authors>Rsda</Authors>
+	<Description>Domain for GymProgress</Description>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<RepositoryUrl>https://github.com/Rsda23/GymProgress.Domain</RepositoryUrl>
+	<RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
 </Project>
