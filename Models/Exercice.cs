@@ -10,6 +10,10 @@
         public DateTime Date { get; set; }
         public string UserId { get; set; }
 
+        public Exercice()
+        {
+        
+        }
         public Exercice(string nom, int repetition, int serie, float charge, DateTime date, string userId)
         {
             Nom = nom;

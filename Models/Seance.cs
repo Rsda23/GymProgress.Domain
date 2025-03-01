@@ -7,6 +7,11 @@ namespace GymProgress.Domain.Models
         public string Name { get; set; }
         public List<Exercice> Exercices { get; set; }
 
+        public Seance()
+        {
+            Exercices = new List<Exercice>();     
+        }
+
         public Seance(string name, List<Exercice> exercices)
         {
             Name = name;

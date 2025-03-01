@@ -7,6 +7,11 @@
         public string Email { get; set; }
         public string HashedPassword { get; set; }
 
+        public User()
+        {
+                
+        }
+
         public User(string pseudo, string email, string hashedPassword)
         {
             Pseudo = pseudo;
