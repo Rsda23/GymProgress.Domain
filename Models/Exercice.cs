@@ -6,7 +6,7 @@ namespace GymProgress.Domain.Models
     {
         [JsonPropertyName("exerciceId")]
         public string ExerciceId { get; set; } = string.Empty;
-        [JsonPropertyName("name")]
+        [JsonPropertyName("nom")]
         public string Nom { get; set; }
         [JsonPropertyName("repetition")]
         public int Repetition { get; set; }
