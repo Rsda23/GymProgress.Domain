@@ -23,6 +23,10 @@ namespace GymProgress.Domain.Models
         {
         
         }
+        public Exercice(string nom)
+        {
+            Nom = nom;
+        }
         public Exercice(string nom, int repetition, int serie, float charge, DateTime date, string userId)
         {
             Nom = nom;
