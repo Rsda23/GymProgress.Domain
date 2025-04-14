@@ -6,6 +6,8 @@ namespace GymProgress.Domain.Models
     {
         [JsonPropertyName("setDataId")]
         public string SetDataId { get; set; } = string.Empty;
+        [JsonPropertyName("exerciceId")]
+        public string ExerciceId { get; set; } = string.Empty;
         [JsonPropertyName("repetition")]
         public int Repetition { get; set; }
         [JsonPropertyName("serie")]
@@ -20,8 +22,9 @@ namespace GymProgress.Domain.Models
 
         }
 
-        public SetData(int repetition, int serie, float charge, DateTime date)
+        public SetData(string exerciceId, int repetition, int serie, float charge, DateTime date)
         {
+            ExerciceId = exerciceId;
             Repetition = repetition;
             Serie = serie;
             Charge = charge;
