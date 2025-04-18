@@ -30,5 +30,15 @@ namespace GymProgress.Domain.Models
             Charge = charge;
             Date = date;
         }
+
+        public SetData(string setDataId, string exerciceId, int repetition, int serie, float charge, DateTime date)
+        {
+            SetDataId = setDataId;
+            ExerciceId = exerciceId;
+            Repetition = repetition;
+            Serie = serie;
+            Charge = charge;
+            Date = date;
+        }
     }
 }
