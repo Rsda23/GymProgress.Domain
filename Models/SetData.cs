@@ -16,6 +16,8 @@ namespace GymProgress.Domain.Models
         public float Charge { get; set; }
         [JsonPropertyName("date")]
         public DateTime Date { get; set; }
+        [JsonPropertyName("userId")]
+        public string UserId { get; set; }
 
         public SetData()
         {
@@ -39,6 +41,27 @@ namespace GymProgress.Domain.Models
             Serie = serie;
             Charge = charge;
             Date = date;
+        }
+
+        public SetData(string exerciceId, int repetition, int serie, float charge, DateTime date, string userId)
+        {
+            ExerciceId = exerciceId;
+            Repetition = repetition;
+            Serie = serie;
+            Charge = charge;
+            Date = date;
+            UserId = userId;
+        }
+
+        public SetData(string setDataId, string exerciceId, int repetition, int serie, float charge, DateTime date, string userId)
+        {
+            SetDataId = setDataId;
+            ExerciceId = exerciceId;
+            Repetition = repetition;
+            Serie = serie;
+            Charge = charge;
+            Date = date;
+            UserId = userId;
         }
     }
 }
