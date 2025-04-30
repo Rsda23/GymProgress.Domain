@@ -21,6 +21,11 @@ namespace GymProgress.Domain.Models
         {
             Nom = nom;
         }
+        public Exercice(string nom, string userId)
+        {
+            Nom = nom;
+            UserId = userId;
+        }
         public Exercice(string nom, string userId, List<SetData> setDatas)
         {
             Nom = nom;
