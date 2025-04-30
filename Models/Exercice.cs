@@ -9,7 +9,7 @@ namespace GymProgress.Domain.Models
         [JsonPropertyName("nom")]
         public string Nom { get; set; }
         [JsonPropertyName("userId")]
-        public string UserId { get; set; }
+        public string? UserId { get; set; }
         [JsonPropertyName("setDatas")]
         public List<SetData> SetDatas { get; set; }
 

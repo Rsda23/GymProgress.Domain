@@ -11,7 +11,7 @@ namespace GymProgress.Domain.Models
         [JsonPropertyName("exercices")]
         public List<Exercice> Exercices { get; set; }
         [JsonPropertyName("userId")]
-        public string UserId { get; set; }
+        public string? UserId { get; set; }
 
         public Seance()
         {
