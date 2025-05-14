@@ -12,6 +12,8 @@ namespace GymProgress.Domain.Models
         public string Email { get; set; }
         [JsonPropertyName("hashedPassword")]
         public string HashedPassword { get; set; }
+        [JsonPropertyName("date")]
+        public DateTime Date { get; set; }
 
         public User()
         {
@@ -23,6 +25,14 @@ namespace GymProgress.Domain.Models
             Pseudo = pseudo;
             Email = email;
             HashedPassword = hashedPassword;
+        }
+
+        public User(string pseudo, string email, string hashedPassword, DateTime date)
+        {
+            Pseudo = pseudo;
+            Email = email;
+            HashedPassword = hashedPassword;
+            Date = date;
         }
     }
 }

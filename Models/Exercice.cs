@@ -12,6 +12,8 @@ namespace GymProgress.Domain.Models
         public string? UserId { get; set; }
         [JsonPropertyName("setDatas")]
         public List<SetData> SetDatas { get; set; }
+        [JsonPropertyName("date")]
+        public DateTime Date { get; set; }
 
         public Exercice()
         {
@@ -26,11 +28,24 @@ namespace GymProgress.Domain.Models
             Nom = nom;
             UserId = userId;
         }
+        public Exercice(string nom, string userId, DateTime date)
+        {
+            Nom = nom;
+            UserId = userId;
+            Date = date;
+        }
         public Exercice(string nom, string userId, List<SetData> setDatas)
         {
             Nom = nom;
             UserId = userId;
             SetDatas = setDatas;
+        }
+        public Exercice(string nom, string userId, List<SetData> setDatas, DateTime date)
+        {
+            Nom = nom;
+            UserId = userId;
+            SetDatas = setDatas;
+            Date = date;
         }
     }
 }

@@ -12,6 +12,8 @@ namespace GymProgress.Domain.Models
         public List<Exercice> Exercices { get; set; }
         [JsonPropertyName("userId")]
         public string? UserId { get; set; }
+        [JsonPropertyName("date")]
+        public DateTime Date { get; set; }
 
         public Seance()
         {
@@ -22,6 +24,12 @@ namespace GymProgress.Domain.Models
         {
             Name = name;
             Exercices = exercices;
+        }
+        public Seance(string name, List<Exercice> exercices, DateTime date)
+        {
+            Name = name;
+            Exercices = exercices;
+            Date = date;
         }
         public Seance(string name, List<Exercice> exercices, string userId)
         {
@@ -36,6 +44,11 @@ namespace GymProgress.Domain.Models
         public Seance(string name)
         {
             Name = name;
+        }
+        public Seance(string name, DateTime date)
+        {
+            Name = name;
+            Date = date;
         }
         public Seance(string name, string userId)
         {
