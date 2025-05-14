@@ -37,6 +37,13 @@ namespace GymProgress.Domain.Models
             Exercices = exercices;
             UserId = userId;
         }
+        public Seance(string name, List<Exercice> exercices, string userId, DateTime date)
+        {
+            Name = name;
+            Exercices = exercices;
+            UserId = userId;
+            Date = date;
+        }
         public Seance(List<Exercice> exercices)
         {
             Exercices = exercices;
@@ -54,6 +61,12 @@ namespace GymProgress.Domain.Models
         {
             Name = name;
             UserId = userId;
+        }
+        public Seance(string name, string userId, DateTime date)
+        {
+            Name = name;
+            UserId = userId;
+            Date = date;
         }
     }
 }
